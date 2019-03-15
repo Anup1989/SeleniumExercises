@@ -23,7 +23,7 @@ public class EncryptAndDycrypt {
 	}
 	
 	public void DecodeEmail() {
-		String mail ="JU8wZg8rWuUCkrmxWV69xw==";
+		String mail ="9+dQvsOll93UibVFxyqLoOJEmlybQ0KEA";
 		byte[] decodedstring =Base64.decodeBase64(mail.getBytes());
 		System.out.println("Decoded mail id : "+ new String (decodedstring));
 	}
